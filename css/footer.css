@@ -1,0 +1,32 @@
+div#body_footer
+{
+	clear: both;
+	color: #4D5F3D;
+	font-size: 0.7em;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	position:relative;
+	top: 15px;
+	margin:0 10px 0 10px;
+	padding:10px 0 50px 0;
+	border-top:1px dotted #DAE5B9
+}
+div#body_footer a
+{
+	color: #4D5F3D;
+	text-decoration: none;
+}
+div#body_footer a:hover
+{
+	color: #4D5F3D;
+	text-decoration: underline;
+}
+div#body_footer div#footer_links{
+    float: left;
+}
+div#body_footer div#approval{
+    float: left;
+    margin-left:20px;
+}
+span.powered{
+	color:#CCCCCC
+}

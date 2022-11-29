@@ -1,0 +1,339 @@
+body.home div#page div#body_content
+{
+	/*min-height: 440px;*/
+	background-color:#00FF00;
+	border:4px solid #7f0000;
+	/*border-top-width:0;*/
+	background: #fff url('btm_blue.jpg') repeat-x 0 0;
+	padding:0 10px 10px 10px;
+	margin-right:-2px;
+	min-height:400px;
+	border-radius:10px;
+}
+body.home div#page div#body_content p
+{
+	font-size:12px;text-align:justify
+}
+
+body.home div#page div#body_content div#slider_menu
+{
+	margin:12px 10px 0 0;
+	width: 200px;
+	float: left;
+	/*padding-bottom:6px;*/
+	padding:0 0 0 0;
+	font-size:14px;
+	min-height:40px;
+	font-size:12px;
+	
+	border:1px solid #DBE1E6;
+	background-color:#ffebcd;
+	line-height:24px;margin-left:10px;
+	/*border-right:1px solid #CCC;*/
+}
+body.home div#page div#body_content div#slider_menu h2.title
+{
+	font-size:14px;font-weight:bold;color:#333333;
+	text-transform:uppercase;
+	padding-left:5px;
+	border-bottom:1px solid #DBE1E6;
+	height:28px; background:url(../images/bg_nav.png) bottom repeat-x;
+}
+body.home div#page div#body_content div#slider_menu ul
+{
+	list-style:none;margin-left:-30px;
+	list-style-image:url(bull.gif)
+}
+body.home div#page div#body_content div#slider_menu ul li
+{
+	border-bottom:1px dotted #DAE5B9;margin-left:10px;line-height:26px;
+}
+body.home div#page div#body_content div#slider_menu ul li:hover
+{
+	background-color:#EBEBEB;
+}
+
+body.home div#page div#body_content div#slider_menu ul li a{
+	color:#333333;
+}
+body.home div#page div#body_content div#center_right
+{
+	width: 581px;
+	float: left;
+	font-family:Arial;
+	font-size:12px;
+	padding:3px;
+}
+
+body.home div#page div#body_content div#bottom_left
+{
+	float: left;
+	height: 120px;
+	float: left;
+	overflow: hidden;
+	overflow-y: scroll;
+	position: relative;
+	width: 392px;
+}
+
+body.home div#page div#body_content div#bottom_left div#imageList_controls
+{
+	bottom: 0;
+	display: block;
+	height: 15px;
+	margin: 2px 0 2px 2px;
+	position: absolute;
+	width: 50px;
+	font-size: 0.1em;
+	line-height: 1px;
+}
+
+body.home div#page div#body_content div#bottom_left div#imageList_controls a#imageList_prev
+{
+	background-image: url('../images/arrow_le.gif');
+	display: block;
+	float: left;
+	font-size: 0.1em;
+	height: 15px;
+	line-height: 1px;
+	text-indent: -9999px;
+	width: 15px;
+}
+
+body.home div#page div#body_content div#bottom_left div#imageList_controls a#imageList_prev:hover
+{
+	background-image: url('../images/arrow_lf.gif');
+}
+
+body.home div#page div#body_content div#bottom_left div#imageList_controls a#imageList_next
+{
+	background: url('../images/arrow_ri.gif') 0 0;
+	display: block;
+	float: left;
+	height: 15px;
+	text-indent: -9999px;
+	width: 15px;
+}
+
+body.home div#page div#body_content div#bottom_left div#imageList_controls a#imageList_next:hover
+{
+	background: #fff url('../images/arrow_rj.gif') no-repeat 0 0;
+}
+
+body.home div#page div#body_content div#bottom_left div#imageList_controls a#imageList_pause
+{
+	background-image: url('../images/pause_ov.gif');
+	display: block;
+	float: left;
+	font-size: 0.1em;
+	height: 15px;
+	line-height: 1px;
+	text-indent: -9999px;
+	width: 15px;
+}
+body.home div#page div#body_content div#bottom_left div#imageList_controls a#imageList_pause:hover
+{
+	background: #fff url('../images/pause000.gif') no-repeat 0 0;
+}
+body.home div#page div#body_content div#bottom_left div#imageList_controls a#imageList_play
+{
+	background-image: url('../images/play_ove.gif');
+	display: block;
+	float: left;
+	font-size: 0.1em;
+	height: 15px;
+	line-height: 1px;
+	text-indent: -9999px;
+	width: 15px;
+}
+body.home div#page div#body_content div#bottom_left div#imageList_controls a#imageList_play:hover
+{
+	background: #fff url('../images/play0000.gif') no-repeat 0 0;
+}
+body.home div#page div#body_content div#bottom_right
+{
+	width: 587px;
+	height: 120px;
+	float: left;
+}
+
+div.spacer_float
+{
+	width: 1px;
+	height: 1px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.spacer_break
+{
+	width: 1px;
+	height: 1px;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	line-height: 0px;
+}
+
+/*
+	Slider Menu
+*/
+
+body.home div#page div#body_content div#slider_menu div#slider_graphic
+{
+	/*background-image: url('reveal_t.png');*/
+	height: 186px;
+	margin: 60px 0 0 50px;
+	text-indent: -9999px;
+	width: 280px;
+}
+
+body.home div#page div#body_content div#slider_menu a
+{
+	display: block;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	overflow: hidden;
+	color:#2C8BBB
+}
+
+body.home div#page div#body_content div#slider_menu a span
+{
+	display: block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.0em;
+	font-style: italic;
+	padding-top: 8px;
+}
+body.home div#page div#body_content div#slider_menu .slider_option span
+{
+	font-style: normal;
+}
+
+body.home div#page div#body_content div#slider_menu a:hover
+{
+	background-image: url('../images/slider_w.png');
+	color: #000044;
+}
+
+body.home div#page div#body_content div#slider_menu .slider_option
+{
+	display: none;
+}
+
+body.home div#page div#body_content div#slider_menu a#slider_header
+{
+	background-image: url('../images/slider_b.png');
+	margin-top: 55px;
+}
+
+body.home div#page div#body_content div#slider_menu a#slider_header span
+{
+	font-size: 1.4em;
+}
+
+body.home div#page div#body_content div#slider_menu a#slider_header:active,
+body.home div#page div#body_content div#slider_menu a#slider_header:focus
+{
+  outline: none;
+}
+body.home div#page div#body_content div#slider_menu a#slider_header:hover
+{
+	background-image: url('../images/slider_b.png');
+	color: #FFFFFF;
+}
+
+body.home div#page div#body_content div#slider_menu div.slider_divider
+{
+	height: 1px;
+	margin-left: 40px;
+	width: 305px;
+	background-image: url('../images/hairline.png');
+}
+
+body.home div#page div#body_content div#slider_menu a img#slider_header_blue_arrow
+{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+body.home div#page div#body_content div#spider_food
+{
+	/*background: #fff url('btm_blue.jpg') repeat-x 0 0;*/
+	height: 160px;
+	padding-top: 15px;
+	padding-left: 21px;
+}
+
+body.home div#page div#body_content div#spider_food div.spider_block
+{
+	float: left;
+	width: 155px;
+}
+
+body.home div#page div#body_content div#spider_food div.spider_block h2
+{
+	color: #666;
+	font-size: 0.9em;
+	font-weight: normal;
+}
+
+body.home div#page div#body_content div#spider_food div.spider_block p
+{
+	color: #333;
+	font-size: 0.7em;
+	height: 90px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+body.home div#page div#body_content div#spider_food div.spider_block a
+{
+	color: #09F;
+	display: block;
+	font-size: 0.7em;
+	text-decoration: none;
+}
+
+body.home div#page div#body_content div#spider_food div.spider_spacer
+{
+	width: 26px;
+	float: left;
+}
+.hidden {
+	display: none;
+}
+.list_menu
+{
+	color:#FF0000
+}
+
+/*------------------------------------------------------------*/
+		.tabel_reg{
+		border:1px solid #CECECE;border-right-width:2px;border-bottom-width:2px;background-color:#FFFFFF
+		}
+		.tabel_reg tr td{
+			border-bottom:1px solid #CECECE;
+			height:26px;
+			line-height:20px
+		}
+		em{color:#999999;font-size:12px}
+		.error{
+			color:#FF0000;
+			text-align:center;
+			padding:10px;
+			
+		}
+		.success{
+			color:#009933;
+			text-align:center;
+			padding:10px
+		}
+		.tabel_transparan tr td{
+			border-width:0;
+			height:26px;
+			line-height:20px
+		}
+
